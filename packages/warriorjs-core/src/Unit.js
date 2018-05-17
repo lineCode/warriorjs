@@ -9,7 +9,7 @@ class Unit {
    * @param {string} name The name of the unit.
    * @param {string} character The character of the unit.
    * @param {number} maxHealth The max health in HP.
-   * @param {number} reward The number of points to reward when killed.
+   * @param {number} reward The number of points to reward when killing or releasing.
    * @param {boolean} enemy Whether the unit is an enemy or not.
    * @param {boolean} bound Whether the unit is bound or not.
    */
@@ -251,7 +251,7 @@ class Unit {
   }
 
   /**
-   * Subtract the given points from the score.
+   * Subtracts the given points from the score.
    *
    * @param {number} points The points to lose.
    */

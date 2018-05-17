@@ -1,5 +1,5 @@
 ---
-id: space-api
+id: space-player-api
 title: Space API
 ---
 
@@ -32,7 +32,7 @@ Determines if nothing (except maybe stairs) is at this space.
 
 _(boolean)_: Whether this space is empty or not.
 
-## `space.isStairs()`:
+## `space.isStairs()`
 
 Determines if the stairs are at this space.
 
@@ -40,7 +40,7 @@ Determines if the stairs are at this space.
 
 _(boolean)_: Whether the stairs are at this space or not.
 
-## `space.isWall()`:
+## `space.isWall()`
 
 Determines if this is the edge of the level.
 
@@ -48,7 +48,7 @@ Determines if this is the edge of the level.
 
 _(boolean)_: Whether this space is a wall or not.
 
-## `space.isUnit()`:
+## `space.isUnit()`
 
 Determines if there's a unit at this space.
 
@@ -56,7 +56,7 @@ Determines if there's a unit at this space.
 
 _(boolean)_: Whether a unit is at this space or not.
 
-## `space.getUnit()`:
+## `space.getUnit()`
 
 Returns the unit located at this space (if any).
 

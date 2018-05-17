@@ -13,7 +13,8 @@ const Footer = ({ config, language }) => (
       </a>
       <div>
         <h5>Docs</h5>
-        <a href={getDocUrl('overview.html', language)}>Play</a>
+        <a href={getDocUrl('player-overview.html', language)}>Play</a>
+        <a href={getDocUrl('maker-overview.html', language)}>Make</a>
       </div>
       <div>
         <h5>Community</h5>

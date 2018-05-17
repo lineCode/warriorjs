@@ -1,5 +1,5 @@
 ---
-id: unit-api
+id: unit-player-api
 title: Unit API
 ---
 
@@ -14,7 +14,7 @@ You can call methods on a unit to know more about it.
 
 Here are the various methods that are available to you:
 
-## `unit.isBound()`:
+## `unit.isBound()`
 
 Determines if the unit is bound.
 

@@ -1,5 +1,5 @@
 ---
-id: overview
+id: player-overview
 title: Overview
 ---
 
